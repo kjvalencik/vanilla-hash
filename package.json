@@ -1,0 +1,29 @@
+{
+  "name": "vanilla-hash",
+  "version": "0.0.1",
+  "description": "Node.js implementation of Vanilla Forums cookie and password hashes.",
+  "main": "vanillaHash.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "dependencies": {
+    "phpjs": ">= 0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kjvalencik/vanilla-hash.git"
+  },
+  "keywords": [
+    "vanilla",
+    "forums"
+  ],
+  "author": "K.J. Valencik",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
