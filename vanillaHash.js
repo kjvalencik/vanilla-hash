@@ -35,6 +35,7 @@ function _hash(key, data, hashMethod, packFormat) {
 
 VanillaHash = function (key, hashMethod) {
 	var packFormat;
+	hashMethod = hashMethod || 'md5';
 
 	switch (hashMethod) {
 	case 'md5':
